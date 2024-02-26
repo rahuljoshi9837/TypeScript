@@ -1,0 +1,25 @@
+JavaScript Created - 1995
+ECMAScript 1 - 1996
+ECMAScript 5 - 2009
+ECMAScript 6 - 2015
+
+
+###### What is TypeScript ######
+TypeScript is a superset of JavaScript, meaning that it does everything that JavaScript does, but with some added features.
+
+The main reason for using TypeScript is to add static typing to JavaScript. Static typing means that the type of a variable cannot be changed at any point in a program. It can prevent a LOT of bugs!
+
+###### Example #######
+// JavaScript
+let foo = "hello";
+foo = 55; // foo has changed type from a string to a number - no problem
+
+// TypeScript
+let foo = "hello";
+foo = 55; // ERROR - foo cannot change from string to number
+
+##### Primitive and Non-primitive #####
+Mutability: Primitive data types are immutable, meaning their values cannot be changed once assigned. Non-primitive data types are mutable and can be modified.
+
+##### Primitive DataTypes #####
+string,number,bigint,boolean,undefined,null,symbol
